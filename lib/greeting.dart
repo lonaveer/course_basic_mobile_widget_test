@@ -1,5 +1,22 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(GreetingApp());
+}
+
+class GreetingApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Greeting App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: GreetingWidget(),
+    );
+  }
+}
+
 class GreetingWidget extends StatefulWidget {
   @override
   _GreetingWidgetState createState() => _GreetingWidgetState();

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:my_flutter_app/hello_world.dart';
-// import 'package:my_flutter_app/greeting.dart';
+// import 'package:my_flutter_app/hello_world.dart';
+import 'package:my_flutter_app/greeting.dart';
 
 void main() {
-  runApp(const MyApp());
+  // runApp(const MyApp());
+  // runApp(HelloWorldApp());
+  runApp(GreetingApp());
 }
 
 class MyApp extends StatelessWidget {
