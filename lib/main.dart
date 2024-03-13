@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 // import 'package:my_flutter_app/hello_world.dart';
 // import 'package:my_flutter_app/greeting.dart';
 // import 'package:my_flutter_app/welcome.dart';
-import 'package:my_flutter_app/sign_in_form.dart';
+// import 'package:my_flutter_app/sign_in_form.dart';
+import 'package:my_flutter_app/pages/home_page.dart';
 
 void main() {
   // runApp(const MyApp());
   // runApp(WelcomeApp());
-  runApp(SignInFormApp());
+  // runApp(SignInFormApp());
+  runApp(HomePageApp());
 }
 
 class MyApp extends StatelessWidget {
