@@ -7,6 +7,8 @@ import 'package:my_flutter_app/pages/home_page.dart';
 
 void main() {
   // runApp(const MyApp());
+  // runApp(HelloWorldApp());
+  // runApp(GreetingApp());
   // runApp(WelcomeApp());
   // runApp(SignInFormApp());
   runApp(HomePageApp());
@@ -40,9 +42,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      // home: HelloWorldWidget(),
-      // home: GreetingWidget(),
-      // home: SignInForm(),
     );
   }
 }
