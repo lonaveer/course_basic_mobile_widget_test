@@ -13,7 +13,7 @@ void main() {
 
     // จำลองการกดปุ่ม
     await tester.tap(find.byType(ElevatedButton));
-    await tester.pump(); // สำคัญ: ปรับปรุง UI หลังจากการกดปุ่ม
+    await tester.pump(); // ปรับปรุง UI หลังจากการกดปุ่ม
 
     // ตรวจสอบข้อความหลังจากการกดปุ่ม
     expect(find.text('Hello'), findsNothing);

@@ -13,7 +13,7 @@ void main() {
 
     // จำลองการแตะบนปุ่ม
     await tester.tap(find.byIcon(Icons.add));
-    await tester.pump(); // รีเฟรช UI
+    await tester.pump(); // ปรับปรุง UI หลังจากการกดปุ่ม
 
     // ตรวจสอบผลลัพธ์หลังจากการโต้ตอบ
     expect(find.text('0'), findsNothing);
