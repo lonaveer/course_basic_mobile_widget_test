@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 // import 'package:my_flutter_app/greeting.dart';
 // import 'package:my_flutter_app/welcome.dart';
 // import 'package:my_flutter_app/sign_in_form.dart';
-import 'package:my_flutter_app/pages/home_page.dart';
+// import 'package:my_flutter_app/pages/home_page.dart';
+import 'package:my_flutter_app/fade_widget.dart';
 
 void main() {
   // runApp(const MyApp());
@@ -11,7 +12,8 @@ void main() {
   // runApp(GreetingApp());
   // runApp(WelcomeApp());
   // runApp(SignInFormApp());
-  runApp(HomePageApp());
+  // runApp(HomePageApp());
+  runApp(FadeWidgetApp());
 }
 
 class MyApp extends StatelessWidget {
